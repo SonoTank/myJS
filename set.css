@@ -1,0 +1,39 @@
+@charset "UTF-8";
+html,body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height: 100%;
+}
+
+body{
+    font-family:"Hiragino Kaku Gothic Pro",Arial, sans-serif;
+    font-size:15px;
+    background-color: #f4f9ea;
+    color:#555;
+}
+
+  h1,h2,h3,h4,h5,h6{
+    margin:0 0 0 30px;
+}
+
+li{
+    line-height:1.7em;
+}
+
+a:link, a:visited, a:active {
+    color: blue;
+  }
+a:hover{
+    color: orange;
+  }
+
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.clear{
+    clear:both;
+}
